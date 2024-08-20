@@ -1,0 +1,101 @@
+"rank","totalPoints","userID","nickname","onlineID","countryCode","driverRating","sportmanshipRating","class","manufacturer","round_1"
+1,66,"c799f00f-0e3a-4dec-b27d-3fb528b7b6d0","IanPaulStone","ianpaulstone","GB","B","S","Unknown","McLaren",66
+2,63,"2498cd2a-63ab-4049-9794-9e09345f9c9e","Stifi07","stifi07","GB","B","S","Unknown","Lamborghini",63
+3,61,"76c96fab-845a-48e7-8765-bb34f075f031","Leo","LJLM2017","GB","B","S","Unknown","Porsche",61
+4,55,"58bce3eb-54fe-45d7-9801-0e758b644b6a","Dan","DanSmithster","GB","B","A","Unknown","Nissan",55
+5,52,"bd33e70c-1766-495c-ae64-330f29cdee14","Mr. Lee","Mr_Lee_76","GB","B","S","Unknown","AMG",52
+6,49,"df2ff3b9-e361-4595-a639-27b65456bf07","Richierich","RmL-GT1","GB","C","S","Unknown","Porsche",49
+6,49,"b69d27b1-7027-4645-81f8-e423c40a3e44","Nekojarashi","Ronduckgideon","GB","B","S","Unknown","Porsche",49
+8,47,"76f1f7b2-b77e-4d75-a213-93fed2bbcca2","Rob","Rob426st","GB","B","S","Unknown","Ford",47
+9,46,"d70109a0-67fa-4aca-aea3-2567bdb22f76","Old timer","ancient-gamer72","GB","B","S","Unknown","Porsche",46
+10,44,"1b181a14-fa7b-419d-8589-73fb1830c57e","Mobius","ApexHawker","GB","C","S","Unknown","Mazda",44
+10,44,"5d05641e-c8bc-4f9c-83dd-f271d5fe1519","Brightspark58","Brightspark58","GB","B","S","Unknown","McLaren",44
+10,44,"bfb09dfd-6587-43e3-be1e-ebf041f01e5e","Stephen","StephenF95_","GB","C","S","Unknown","Mazda",44
+13,43,"2ff25264-c402-4032-844c-bc55ed215154","Saffron","Saffron2014","GB","C","S","Unknown","Mitsubishi",43
+14,42,"0b258037-2bd6-4302-963f-a1240ab6afbc","C. Myers","Deni330","GB","C","S","Unknown","Porsche",42
+15,41,"50b1723b-5fe5-4131-a9d3-e4192cb48071","Jazzbambo","jazzbambo","GB","B","S","Unknown","Ferrari",41
+16,40,"c4fc3440-0e5b-4ee4-bc78-25e74c67546f","P. Dingle","Dan_G_87","GB","C","S","Unknown","Ferrari",40
+16,40,"320888ed-ebfb-4a64-a2d3-9320ab68f996","TCR_Rushton","P_J_R_1981","GB","C","S","Unknown","Porsche",40
+18,39,"1da71844-d5f2-4db5-a0dc-ca07d3dd273e","Goemon","Goemon_85","GB","C","S","Unknown","Ferrari",39
+18,39,"d4e5178c-d985-4b3e-8ae1-9a85618356d7","Gsy jay","GSY-Jay","GB","C","S","Unknown","Mitsubishi",39
+20,38,"2d7c3a18-c2ee-4965-b104-74d628a8ce05","MTC","M132T003C","GB","C","S","Unknown","Hyundai",38
+20,38,"1779e9af-d42b-46c4-8682-58a3c361602a","Lightning","Khaleesi_Draigon","GB","C","S","Unknown","Unknown",38
+20,38,"3551d21d-534b-4a97-9a38-2bd733dcfe13","MightyKidd","MightyKidd","GB","C","S","Unknown","Porsche",38
+20,38,"00a6ee6c-7451-454c-8f01-4873373825d7","Kentrojan1","kentrojan1","GB","C","S","Unknown","Mazda",38
+24,37,"7e95c8c3-3f84-4749-9712-960436796c3e","Balance","Balance_GT7","GB","C","S","Unknown","Unknown",37
+24,37,"1f1c5b6c-470e-4946-b851-f1ffb391b0eb","TTate88","TTate94","GB","C","S","Unknown","Mitsubishi",37
+24,37,"1a10a74a-5c59-43de-b785-f92226a9e4a9","Darft Vaper","Cyber--Stevo","GB","C","S","Unknown","Ford",37
+27,36,"955272f7-f86b-4eec-81a1-738759ed79ea","TurboRef83","robbobredemption","GB","C","S","Unknown","Porsche",36
+27,36,"3885690e-3a96-4c75-95e8-ae3d67d7e77d","Comrade","itzChickenbreast","GB","C","S","Unknown","Chevrolet",36
+27,36,"4b705905-3587-4a6a-b4f9-5136ecc79a3a","-","Cahoonas","GB","C","S","Unknown","Lexus",36
+30,35,"faa9464e-76b2-497f-8223-6f9cb2263010","Kizz","Kizzz","GB","C","S","Unknown","Porsche",35
+30,35,"62a29ba6-49c4-4bbd-942e-b02896124626","DazOz","Aj_Tj325","GB","C","S","Unknown","Aston Martin",35
+30,35,"7a3a5138-db64-4c22-94d7-4e7904526132","ChaosDruid","TheChaosDruid","GB","C","S","Unknown","Lexus",35
+33,34,"304ea88b-9880-49e1-b3f1-2e61a709d4e2","Doc","Doctartangsy","GB","C","S","Unknown","Aston Martin",34
+33,34,"fd6c9cdd-2c00-4cb9-8535-52ea864fe329","B. Martin","Jappot_uk","GB","C","S","Unknown","McLaren",34
+33,34,"88572034-58a6-4543-a44c-574ee0a37706","Jakeeey","Jake_braisher007","GB","C","S","Unknown","Toyota",34
+33,34,"d4192c65-f5cd-4685-9af4-8210a555cfe0","Pavle","PavleNikolic","GB","C","S","Unknown","AMG",34
+33,34,"658ceab6-94e9-4726-886f-28dc860f733b","McLaren78","mclaren_78","GB","B","S","Unknown","Nissan",34
+33,34,"1d0012f0-7eb8-47b4-9543-6b539129d5c7","Channy","channyburnley91","GB","C","S","Unknown","Unknown",34
+39,33,"09b401d4-1557-4711-a8a7-3fcb391f5f2c","Antnchaz","antnchaz","GB","C","S","Unknown","AMG",33
+39,33,"450bb6bc-f962-48ac-8da5-fe8fb666367c","Racing_Fox_yt","Racing_Fox_YT","GB","C","S","Unknown","Nissan",33
+39,33,"be9c84b2-f87d-437b-8787-c14e4b2e8df6","Speedster091","Speedster091","GB","C","S","Unknown","Dodge",33
+39,33,"ce6e67db-6151-49ae-b38a-7ebe28bf35ca","RUFFRYE","RUFFRYE","GB","C","S","Unknown","Porsche",33
+39,33,"5a2c1f96-6e19-47f4-9df2-14fb489254a4","Emke","emkev8","GB","C","S","Unknown","Porsche",33
+39,33,"08c5b20d-882f-47dd-a90f-476ee52a4edc","Chris Kurupt","ChrisKurupt420","GB","B","S","Unknown","Ferrari",33
+45,32,"f2175e63-3648-4e53-9d30-d2120904684a","Wayne Pem7","NFFC-79-80","GB","C","S","Unknown","Lexus",32
+45,32,"16f10467-4000-4e61-baf4-8749da7385a2","C2 ETT","C2_ETT","GB","C","S","Unknown","McLaren",32
+45,32,"7273786c-1d76-426f-a5a8-06d3a721b940","P. Brown","Lionheart123579","GB","C","S","Unknown","Porsche",32
+45,32,"b3fc2b07-016b-470e-8475-ffd0e6514407","Thee Bomber","tonyg1892","GB","C","S","Unknown","Porsche",32
+45,32,"82bce5c4-a110-4b25-8528-c12d12e866f7","Car razy","car_razy","GB","C","S","Unknown","Chevrolet",32
+45,32,"9db08df1-2600-4e62-bc04-fe6f79b2753e","WAMBAM1uk","wambam1uk","GB","C","S","Unknown","Porsche",32
+51,31,"3beb5da7-b87a-4c5f-be5e-15bb15a1eb33","grievsyuk","grievsyuk","GB","C","S","Unknown","Lamborghini",31
+51,31,"9111bb6b-d108-489a-8f4e-808284bbe29b","GAMBLE","KriTactic","GB","C","S","Unknown","McLaren",31
+51,31,"14e73b49-f03f-4e02-a93f-2a25e4fd41cf","VAXMESTRAq0N98","KrazyManc-_-","GB","C","S","Unknown","AMG",31
+51,31,"4855d305-dfcc-4355-a07c-ab1db8d967af","Straws","Straws36","GB","C","S","Unknown","Peugeot",31
+51,31,"51b9afb5-4301-41be-9334-acea012440a3","GazGits","gazgits","GB","C","S","Unknown","Jaguar",31
+51,31,"82bc4490-4705-4140-81e4-b9431edb17fd","The Kid","thelaniekid","GB","C","S","Unknown","McLaren",31
+57,30,"4f8c178b-80d5-41d8-8623-93f11bb91e5b","MR BANANA","bananna78","GB","C","S","Unknown","Porsche",30
+57,30,"e962ac88-d335-47cd-b70c-f84c505f1e16","woo","qwoiheroqwkne","GB","C","A","Unknown","Unknown",30
+57,30,"235e4c8d-cbd4-4557-9860-ab4886f25516","SCOOTER","zag1","GB","C","S","Unknown","Toyota",30
+57,30,"c3ba7bcf-d0a0-4d27-8330-ad8bc2ae220f","Tots","JO54UA-CL4RE","GB","C","S","Unknown","Unknown",30
+57,30,"cda22748-f491-4d7c-bc2b-84220aa305b0","James","jrey_95","GB","C","B","Unknown","Suzuki",30
+57,30,"1f5633fc-0652-4091-a626-4ca1ad017f12","Spark1","sprk_1","GB","C","S","Unknown","Ferrari",30
+57,30,"da3c29c9-1d9c-46bc-b1e3-a92342412ce8","Skillos","skillos3","GB","C","S","Unknown","Honda",30
+57,30,"2542ec95-5937-40db-9cd6-a486f04ec8d1","Guaqamoley","guaqamoley","GB","C","S","Unknown","Porsche",30
+57,30,"2e382793-c043-474d-8884-1828d7895efd","I420brett","i420brett","GB","C","S","Unknown","Porsche",30
+66,29,"b4da6110-d00f-4d76-a0b0-4d4e0f6c0d90","MRTUMPA","MRTUMPA81","GB","C","S","Unknown","McLaren",29
+66,29,"b4126a74-71e4-4b4f-8395-ebffa80ff06e","Deliveroo Rider","UK_HKTF","GB","C","S","Unknown","Ferrari",29
+66,29,"2d51870c-b8e0-4965-b4eb-cb19d7940e1b","Lovatt","lovatt83","GB","C","S","Unknown","Ferrari",29
+66,29,"82f61332-c7f9-4e97-bd85-28af13bc98db","Levo","Levo956","GB","C","S","Unknown","Ferrari",29
+70,28,"a24db649-6aa2-4fb1-916c-bb6cc1c3de27","Nigel Mansnail","Nogwuy","GB","C","S","Unknown","Lamborghini",28
+70,28,"aa5d5210-c9e7-490a-8931-f80b5fd71fba","Mystic","TheRealMysticTTV","GB","C","A","Unknown","Toyota",28
+70,28,"3132654a-04b5-4371-b258-740521e94dfe","Iosefka","samandchloe89","GB","C","S","Unknown","Porsche",28
+70,28,"af660b48-c0e1-4e59-a40e-f1cefbbe9ed2","Jay D","JayDoyle666","GB","C","S","Unknown","Lexus",28
+70,28,"7c520073-ac70-46a5-971b-0ab16be0d571","Beetlug","Beetlug","GB","C","S","Unknown","Porsche",28
+70,28,"e993d854-7caf-426d-87e4-351eae49a49b","GRB Digital","gaz120872","GB","C","S","Unknown","Nissan",28
+70,28,"cf8a5ae1-887d-44b8-b4b6-b1e088f83329","Markus","mjigga99","GB","C","S","Unknown","Lamborghini",28
+77,27,"db524535-cbc4-461d-b43a-8cb3ef16812a","Matt","MattJD_2791","GB","C","S","Unknown","Unknown",27
+77,27,"d1151db6-cc3f-4352-abf0-b15f663f2cbf","BLVK","Blvk_119","GB","C","A","Unknown","Ferrari",27
+77,27,"2f0bdba1-d99b-4c33-b16d-97439461d96e","L1QuiD","L1QuiD88","GB","C","S","Unknown","Jaguar",27
+77,27,"957f6648-2f7d-4ec3-b552-6aab4b8a981d","James","Hamez804","GB","C","S","Unknown","Unknown",27
+77,27,"40695983-5902-4297-9f77-98c711f8701c","Thatyellowgolfr","Tannaenyt","GB","C","S","Unknown","Toyota",27
+77,27,"7d51c526-9794-4785-a051-42a141627803","Stoneel","Stoneel4King","GB","C","S","Unknown","Mazda",27
+77,27,"abdc0fe5-25a4-4f39-851b-d2ebc10fe87c","El Freddo","Freddo_2024","GB","C","S","Unknown","McLaren",27
+77,27,"2c2bd907-5f5f-402b-b842-22d874679a06","Andrew1979","jerrymouse79","GB","C","S","Unknown","Unknown",27
+77,27,"cde9c642-7855-40b3-8f2d-c57a780e7525","IlSuperCampione ","ElwoodKJBlues","GB","C","B","Unknown","Porsche",27
+77,27,"e82ec8ce-42b4-4a96-9e88-c4803e40a1fa","Pud0007","pud0007","GB","C","S","Unknown","Genesis",27
+87,26,"41c94d42-17c2-4b39-ac57-a08a07f5c476","DomKamillo","Dom-FN-","GB","C","S","Unknown","Audi",26
+87,26,"c60a2a0d-3842-4761-acd9-0ac5b3212262","Simo","asimo_14","GB","C","S","Unknown","Lamborghini",26
+87,26,"bd2a56f4-b76e-4080-855c-b52c4087b7b4","Tiny","ManLikeTine94","GB","C","S","Unknown","Unknown",26
+87,26,"9b876e5c-7d02-468a-8e5b-6a497e4abb97","Martymcflying","Junglehead1973","GB","C","S","Unknown","Jaguar",26
+87,26,"e0ee3a33-a35b-4594-be36-68db7eb7a3a9","reefoid","reefoid","GB","C","S","Unknown","McLaren",26
+87,26,"6e3f2416-2f70-41b8-ab7d-b5448670776a","Sinke","Benediktas_S","GB","C","A","Unknown","Toyota",26
+93,25,"f9a7faa4-ea34-4f0a-afab-1df4f972af99","Polski_Wariat","You_Lost_haha6","GB","C","S","Unknown","AMG",25
+93,25,"d1e11e9a-eb33-4b4f-b030-835ad419d60f","Jaffadaftie","Panzer_Ace_69420","GB","C","S","Unknown","Unknown",25
+93,25,"fd2e7427-1430-4290-a231-e1ddd451c627","Captain chaos 92","Captain_Chaos922","GB","C","S","Unknown","Lamborghini",25
+93,25,"d64fc2e1-dc52-4185-b315-69e6eb148973","Hayeslee32","hayeslee32","GB","C","S","Unknown","Porsche",25
+93,25,"a0f38c78-7670-47a9-b7f0-f3118c968319","Craig0013","craig0013","GB","C","S","Unknown","Honda",25
+98,24,"a21cec81-4be9-4600-b564-5189f9c7db84","Flash","FlashGabsAT","GB","C","S","Unknown","Ferrari",24
+98,24,"e14a5661-93f6-4b50-ada7-590e37e2c146","Dust N Bonez ","Dust-N-Bonez","GB","C","S","Unknown","Aston Martin",24
+98,24,"9bd263e4-cbe4-4f89-96a1-938755abfa0e","Crazyy","Crazyy_OGz","GB","C","S","Unknown","Unknown",24
