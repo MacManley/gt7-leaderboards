@@ -37,7 +37,7 @@ Example: `node rawSportLeaderboard.js 727 1 IE`
 2. Run scripts with node.js. Pass in the parameters `ID`, `CarClass` and `Region (optional)`. 
 3. The scripts shall now save a PNG of a graph comparing data between drivers. 
 
-Example: `node chartManufacturers.js 1 2`
+Example: `node chartManufacturers.js 1107 2`
 
 ## Credits:
 Credit to [ddm999](https://github.com/ddm999/gt7info) for manufacturer IDs
