@@ -36,7 +36,6 @@ Example: `node rawSportLeaderboard.js 727 1 IE`
 1. Clone this repository `git clone https://github.com/macmanley/gt7-leaderboards.git`
 2. Run scripts with node.js. Pass in the parameters `ID`, `CarClass` and `Region (optional)`. 
 3. The scripts shall now save a PNG of a graph comparing data between drivers. 
-4. 
 
 Example: `node chartManufacturers.js 1 2`
 
