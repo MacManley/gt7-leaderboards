@@ -26,7 +26,7 @@ const fetchChampionshipsData = async (ID, CarClass, Region) => {
   }
 };
 
-const fetchDataAndSaveToCsv = async (result, CarClass) => {
+const fetchDataAndSaveToCsv = async (result, CarClass, ID) => {
     try {
       const currentRoundId = result.current_round_id;
       const fields = [
@@ -142,7 +142,7 @@ const fetchDataAndSaveToCsv = async (result, CarClass) => {
       const csv = parse(transformedData, { fields });
   
       // Save CSV
-      fs.writeFileSync('drivers.csv', csv);
+      fs.writeFileSync(`drivers${ID}.csv`, csv);
       console.log('CSV file has been saved.');
     } catch (error) {
       console.error('Error fetching data or saving to CSV:', error);
@@ -165,7 +165,7 @@ const checkDrivers = async (seasonId, CarClass, Region) => {
       }
       const data = await response.json();
       if (data.result.users) {
-        await fetchDataAndSaveToCsv(data.result);
+        await fetchDataAndSaveToCsv(data.result, CarClass, seasonId);
       }
   } catch (error) {
     console.error('There was a problem with the fetch operation:', error);

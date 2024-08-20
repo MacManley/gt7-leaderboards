@@ -1,8 +1,17 @@
-// File: chartManufacturers.js
+// File: chartCountries.js
 
 const fs = require('fs');
 const { parse } = require('json2csv');
 const { ChartJSNodeCanvas } = require('chartjs-node-canvas');
+
+const generateColors = (count) => {
+  const colors = [];
+  for (let i = 0; i < count; i++) {
+    const hue = (i * 360 / count) % 360;
+    colors.push(`hsl(${hue}, 95%, 65%)`);
+  }
+  return colors;
+};
 
 const fetchDataAndSaveToCsv = async (result, CarClass, ID) => {
   try {
@@ -96,7 +105,7 @@ const fetchDataAndSaveToCsv = async (result, CarClass, ID) => {
         160: 'AFEELA'}
     };
 
-    const manufacturerCounts = {};
+    const countryCounts = {};
 
     const transformedData = result.users.map(user => {
       const roundPoints = user.points.reduce((object, point, index) => {
@@ -104,12 +113,10 @@ const fetchDataAndSaveToCsv = async (result, CarClass, ID) => {
         return object;
       }, {});
 
-      const manufacturer = maps.manufacturer[user.user.manufacturer_id] || 'Unknown';
-
-      if (manufacturer in manufacturerCounts) {
-        manufacturerCounts[manufacturer]++;
+      if (user.user.country_code in countryCounts) {
+        countryCounts[user.user.country_code]++;
       } else {
-        manufacturerCounts[manufacturer] = 1;
+        countryCounts[user.user.country_code] = 1;
       }
 
       return {
@@ -122,60 +129,53 @@ const fetchDataAndSaveToCsv = async (result, CarClass, ID) => {
         driverRating: maps.driver[user.user.driver_rating] || 'Unknown',
         sportmanshipRating: maps.sportsmanship[user.user.sportsmanship_rating] || 'Unknown',
         class: maps.class[CarClass] || 'Unknown',
-        manufacturer: manufacturer,
+        manufacturer: maps.manufacturer[user.user.manufacturer_id] || 'Unknown',
         ...roundPoints
       };
     });
 
     const csv = parse(transformedData, { fields });
-    fs.writeFileSync(`manuChart${ID}.csv`, csv);
+    fs.writeFileSync(`countryChart${ID}.csv`, csv);
     console.log('CSV file has been saved.');
 
     // Pass the manufacturer counts to the charting function
-    await createManufacturerChart(manufacturerCounts, ID);
+    await createManufacturerChart(countryCounts, ID);
 
   } catch (error) {
     console.error('Error fetching data or saving to CSV:', error);
   }
 };
 
-const createManufacturerChart = async (manufacturerCounts, ID) => {
+const createManufacturerChart = async (countryCounts, ID) => {
     console.log("Creating chart...");
     const width = 800;
     const height = 600;
     const chartJSNodeCanvas = new ChartJSNodeCanvas({ width, height });
   
-    const manufacturers = Object.keys(manufacturerCounts);
-    const counts = Object.values(manufacturerCounts);
+    const countries = Object.keys(countryCounts);
+    const counts = Object.values(countryCounts);
+
+    const colors = generateColors(countries.length);
   
     const configuration = {
-      type: 'bar',
+      type: 'pie',
       data: {
-        labels: manufacturers,
+        labels: countries,
         datasets: [{
-          label: 'Manufacturer Frequency',
+          label: 'Country Frequency',
           data: counts,
-          backgroundColor: 'rgba(55, 160, 230, 0.2)',
-          borderColor: 'rgba(54, 162, 235, 1)',
+          backgroundColor: colors,
+          borderColor: 'rgba(0, 0, 0, 0.1)',
           borderWidth: 1
         }]
-      },
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true
-          }
-        }
       }
     };
   
     const imageBuffer = await chartJSNodeCanvas.renderToBuffer(configuration);
-    fs.writeFileSync(`manuChart${ID}.png`, imageBuffer);
+    fs.writeFileSync(`countryChart${ID}.png`, imageBuffer);
 
-    console.log(`Chart saved as manuChart${ID}.png`)
+    console.log(`Chart saved as countryChart${ID}.png`)
 };
-
-// Assuming the checkDrivers function and other related code is correctly implemented
 
 const checkDrivers = async (seasonId, CarClass, Region) => {
     let checkDriversUrl;
