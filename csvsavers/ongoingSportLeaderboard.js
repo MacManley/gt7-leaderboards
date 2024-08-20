@@ -180,7 +180,7 @@ const ID = Number(inputID);
 const CarClass = Number(inputCarClass);
 const Region = String(inputRegion);
 
-if (!seasonID) {
+if (!ID) {
   console.log('Invalid season ID. Please enter a valid number.');
   process.exit(1); 
 } else if (!CarClass) {
